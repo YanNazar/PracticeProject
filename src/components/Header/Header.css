@@ -1,0 +1,62 @@
+.first-line {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 52px;
+}
+
+.first-line logo  {
+  margin: 0;
+  color: white;
+  font-weight: 1400;
+  font-size: 36px;
+}
+
+.header-container {
+  background-color: #008AFF;  
+  padding-left: 228px;
+  border-bottom-left-radius: 200px;
+}
+
+.column {
+  margin-top: 108px;
+  display: flex;
+  flex-direction: column;
+  color: white;
+  word-wrap: break-word;
+
+}
+
+.custom-button {
+  background-color: #FF9C8E;
+  color: #fff; 
+  font-size: 15px;
+  padding: 10px 20px; 
+  border-radius: 25px;
+  width: 226px;
+  height: 50px;
+  border: none;
+  margin-top: 83px;
+  margin-bottom: 205px;
+}
+
+.column h1 {
+  font-style: normal;
+  font-size: 64px;
+  font-weight: 600;
+  line-height: 68px;
+  letter-spacing: -2px;
+  width: 460px;
+}
+
+.column p {
+  font-family: "Open Sans";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  letter-spacing: 0px;
+  text-align: left;
+  width: 362px;
+  margin-top: 0px;
+}
+

@@ -1,0 +1,35 @@
+
+ul {
+    display: flex;
+    list-style-type: none;
+    text-transform: uppercase;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    margin-right: 64px;
+}
+  
+li:last-child {
+    padding-right: 227px;
+    margin-left: 318px;
+    text-decoration: underline;
+    text-decoration-skip-ink: none;
+    text-underline-offset: 8px;
+    text-decoration-color: #FF9C8E;
+    text-decoration-thickness: 2px;
+    text-decoration-style: solid;
+
+}
+
+.navigation a{
+    text-decoration: none;
+    color: white;
+    
+    font-weight: 700;
+    font-size: 13px;
+    letter-spacing: 3px;
+}
+    
+  
