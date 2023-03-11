@@ -6,3 +6,8 @@
     bottom: 0;
     overflow-y: auto;
 }
+.navBar{
+    position: absolute;
+    right: 0;
+    bottom: 84px;
+}

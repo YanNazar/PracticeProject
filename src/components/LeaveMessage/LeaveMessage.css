@@ -9,11 +9,27 @@ input{
   padding-top: 66px;
   padding-bottom: 16px;
   outline: none;
+  width: 460px;
 }
+
 input:focus {
   border-bottom: 2px solid #FFFFFF;
   padding-bottom: 15px;
 }
+
 .message {
   padding-left: 227px;
+}
+
+.customButton {
+  background-color: #FF9C8E;
+  color: #fff; 
+  font-size: 15px;
+  padding: 10px 20px; 
+  border-radius: 25px;
+  width: 226px;
+  height: 56px;
+  border: none;
+  margin-top: 83px;
+  margin-bottom: 205px;
 }

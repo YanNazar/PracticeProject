@@ -17,7 +17,8 @@ const LeaveMessage = () => {
   };
 
   return (
-    <form onSubmit={handleSubmit} className="message">
+    <form onSubmit={handleSubmit} 
+      className="message">
       <div>
         <input
           type="email"
@@ -41,7 +42,8 @@ const LeaveMessage = () => {
           onChange={(e) => setMessage(e.target.value)}
         />
       </div>
-      <button type="submit">Send</button>
+      <button class="customButton" 
+        type="submit">Send</button>
     </form>
   );
 };

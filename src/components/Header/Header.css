@@ -29,7 +29,7 @@
 
 }
 
-.custom-button {
+.customButton {
   background-color: #FF9C8E;
   color: #fff; 
   font-size: 15px;
@@ -68,7 +68,7 @@
   text-transform: uppercase;
   color: white;
   padding-right: 227px;
-  margin-left: 318px;
+  margin-left: 100px;
   text-decoration: underline;
   text-decoration-skip-ink: none;
   text-underline-offset: 8px;

@@ -13,7 +13,7 @@ function Header() {
       <div class="column">
         <h1>Strategic Agency</h1>
         <p>We believe in the power of bold ideas that can solve business challenges.</p>
-        <button class="custom-button">Learn more</button>
+        <button class="customButton">Learn more</button>
       </div>
      
     </div>
