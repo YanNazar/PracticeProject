@@ -1,0 +1,19 @@
+input{
+  display: flex;
+  flex-direction: column;
+  background-color: #008AFF;
+  border: none;
+  border-bottom: 1px solid #FFFFFF;
+  font-size: 15px;
+  color: #FFFFFF;
+  padding-top: 66px;
+  padding-bottom: 16px;
+  outline: none;
+}
+input:focus {
+  border-bottom: 2px solid #FFFFFF;
+  padding-bottom: 15px;
+}
+.message {
+  padding-left: 227px;
+}

@@ -1,0 +1,8 @@
+.footer{
+    position: absolute;
+    background-color: #008AFF;
+    border-top-right-radius: 200px;
+    width: 100%;
+    bottom: 0;
+    overflow-y: auto;
+}

@@ -13,9 +13,11 @@
 }
 
 .header-container {
+  overflow-y: auto;
   background-color: #008AFF;  
   padding-left: 228px;
-  border-bottom-left-radius: 200px;
+  border-bottom-left-radius: 20vh;
+  margin-bottom: 20px;
 }
 
 .column {
@@ -60,3 +62,20 @@
   margin-top: 0px;
 }
 
+.hireUs {
+  display: flex;
+  list-style-type: none;
+  text-transform: uppercase;
+  color: white;
+  padding-right: 227px;
+  margin-left: 318px;
+  text-decoration: underline;
+  text-decoration-skip-ink: none;
+  text-underline-offset: 8px;
+  text-decoration-color: #FF9C8E;
+  text-decoration-thickness: 2px;
+  text-decoration-style: solid;
+  font-weight: 700;
+  font-size: 13px;
+  letter-spacing: 3px;
+}

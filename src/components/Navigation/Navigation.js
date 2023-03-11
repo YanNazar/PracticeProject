@@ -10,7 +10,6 @@ function Navigation() {
         <li><a href="/services">Services</a></li>
         <li><a href="/work">Work</a></li>
         <li><a href="/contact">Contact Us</a></li>
-        <li><a href="/hireus">Hire Us</a></li>
       </ul>
     </nav>
   );
