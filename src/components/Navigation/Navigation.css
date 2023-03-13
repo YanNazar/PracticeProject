@@ -11,15 +11,21 @@ li {
     margin-right: 64px;
 }
 
+li:hover{
+    transform: scale(1.2);
+}
+
 .navigation a{
     text-decoration: none;
     color: white;
     font-weight: 700;
     font-size: 13px;
     letter-spacing: 3px;
+    white-space: nowrap;
 }
 
 .navigation {
+    margin-left: 64px;
     padding-right: 227px;
 }
     

@@ -19,6 +19,7 @@ const LeaveMessage = () => {
   return (
     <form onSubmit={handleSubmit} 
       className="message">
+        <h1 className="title">Send us  a message</h1>
       <div>
         <input
           type="email"

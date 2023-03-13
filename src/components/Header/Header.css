@@ -1,18 +1,11 @@
-.first-line {
+.firstLine {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding-top: 52px;
 }
 
-.first-line logo  {
-  margin: 0;
-  color: white;
-  font-weight: 1400;
-  font-size: 36px;
-}
-
-.header-container {
+.headerContainer {
   overflow-y: auto;
   background-color: #008AFF;  
   padding-left: 228px;
@@ -26,6 +19,7 @@
   flex-direction: column;
   color: white;
   word-wrap: break-word;
+  user-select: none
 
 }
 
@@ -67,7 +61,7 @@
   list-style-type: none;
   text-transform: uppercase;
   color: white;
-  padding-right: 227px;
+  margin-right: 227px;
   margin-left: 100px;
   text-decoration: underline;
   text-decoration-skip-ink: none;
@@ -78,4 +72,9 @@
   font-weight: 700;
   font-size: 13px;
   letter-spacing: 3px;
+  white-space: nowrap;
+}
+
+a.hireUs:hover {
+  transform: scale(1.2);
 }

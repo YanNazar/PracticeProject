@@ -31,5 +31,14 @@ input:focus {
   height: 56px;
   border: none;
   margin-top: 83px;
-  margin-bottom: 205px;
+  margin-bottom: 120px;
+}
+
+.customButton:hover {
+  transform: scale(1.1);
+}
+
+.title {
+  color: #FFFFFF;
+  user-select: none
 }

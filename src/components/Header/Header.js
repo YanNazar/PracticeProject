@@ -1,12 +1,13 @@
 import React from 'react';
+import Logo from '../Logo/Logo';
 import Navigation from '../Navigation/Navigation';
 import './Header.css';
 
 function Header() {
   return (
-    <div class="header-container">
-      <div class="first-line">
-        <logo>Air</logo>
+    <div class="headerContainer">
+      <div class="firstLine">
+        <Logo/>
         <Navigation />
         <a className='hireUs' href="/hireus">Hire Us</a>
       </div>

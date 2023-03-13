@@ -1,4 +1,5 @@
-.footer{
+.footer {
+    padding-top: 140px;
     position: absolute;
     background-color: #008AFF;
     border-top-right-radius: 200px;
@@ -6,8 +7,11 @@
     bottom: 0;
     overflow-y: auto;
 }
-.navBar{
-    position: absolute;
-    right: 0;
-    bottom: 84px;
+.lastLine {    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 84px;
+    padding-left: 227px;
+
 }
