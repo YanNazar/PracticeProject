@@ -1,11 +1,14 @@
+import './App.css';
+
 import { Header } from './components/Header';
 import { WhiteGround } from './components/WhiteGround';
-import './App.css';
+import { OurExpertise } from './components/OurExpertise';
 
 function App() {
   return (
     <div className="App">
       <Header/>
+      <OurExpertise/>
       <WhiteGround/>
     </div>
   );

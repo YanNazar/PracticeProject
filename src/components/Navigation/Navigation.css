@@ -9,6 +9,7 @@
 
 li {
     margin-right: 64px;
+    transition: transform 0.3s ease;
 }
 
 li:hover{

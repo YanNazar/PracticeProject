@@ -1,0 +1,39 @@
+.card {
+    margin-left: 5%;
+    margin-right: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.card h2{
+    color: #253757;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 140%;
+}
+
+.card p{
+    color: #6C788B;
+    text-align: Center;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    width: 264px;
+}
+
+.card img {
+    border-radius: 25px;
+    width: 184px;
+    height: 166px;
+    transition: transform 0.3s ease;
+
+}
+
+.card img:hover {
+    transform: scale(1.2);
+}
+

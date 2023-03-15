@@ -1,0 +1,23 @@
+.ourExpertise{
+    background-color: #FFFFFF;
+    padding-top: 108px;
+    padding-bottom: 154px;
+}
+
+.cardBox{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.ourExpertise h1 {
+    font-weight: 600;
+    font-size: 52px;
+    line-height: 150%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 66px;
+    color: #253757;
+    user-select: none
+}
