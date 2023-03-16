@@ -1,0 +1,29 @@
+.whoWeAre {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.whoWeAre div {
+    margin-top: 148px;
+    margin-bottom: 164px;
+    width: 754px;
+}
+
+.whoWeAre p {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 150%;
+    color: #6C788B;
+}
+
+.whoWeAre h1 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 150%;
+    color: #253757;
+}

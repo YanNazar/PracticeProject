@@ -43,7 +43,7 @@ const LeaveMessage = () => {
           onChange={(e) => setMessage(e.target.value)}
         />
       </div>
-      <button class="customButton" 
+      <button className="customButton" 
         type="submit">Send</button>
     </form>
   );

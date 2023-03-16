@@ -5,16 +5,16 @@ import './Header.css';
 
 function Header() {
   return (
-    <div class="headerContainer">
-      <div class="firstLine">
+    <div className="headerContainer">
+      <div className="firstLine">
         <Logo/>
         <Navigation />
         <a className='hireUs' href="/hireus">Hire Us</a>
       </div>
-      <div class="column">
+      <div className="column">
         <h1>Strategic Agency</h1>
         <p>We believe in the power of bold ideas that can solve business challenges.</p>
-        <button class="customButton">Learn more</button>
+        <button className="customButton">Learn more</button>
       </div>
      
     </div>
