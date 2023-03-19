@@ -1,3 +1,64 @@
 .approach {
-    
+    background-color: #FF9C8E;
+    border-bottom-left-radius: 200px;
+    border-top-left-radius: 200px;
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 200px;
+}
+
+.photoContainer {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.photo {
+    width: 687px;
+    height: 680px;
+    border-top-left-radius: 200px;
+}
+
+.approachText{
+    color: #FFFFFF;
+    padding-top: 204px;
+    padding-left: 204px;
+    padding-bottom: 204px;
+}
+
+.approachText h2{
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 20px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+
+.approachText h1{
+    width: 362px;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 150%;
+}
+
+.approachItem {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 32px;
+}
+
+.approachItem p{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 150%;
+    width: 264px;
+}
+
+.approachItem div{
+    width: 64px;
+    height: 64px;
+    background-color: #FFFFFF;
+    border-radius: 100%;
 }

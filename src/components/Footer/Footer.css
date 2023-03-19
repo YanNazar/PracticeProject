@@ -1,17 +1,35 @@
 .footer {
     padding-top: 140px;
     padding-left: 227px;
+    padding-right: 227px;
     position: absolute;
     background-color: #008AFF;
     border-top-right-radius: 200px;
-    width: 100%;
     bottom: 0;
     overflow-y: auto;
+    box-sizing: border-box;
+    width: 100%;
 }
+
 .lastLine {    
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding-bottom: 84px;
 
+}
+
+.twoColumns {
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    padding: 0;
+    width: max-content;
+    gap: 226px;
+    flex-wrap: wrap;
+}
+
+.twoColumns > * {
+    flex-grow: 1; 
+    flex-basis: 0;
 }

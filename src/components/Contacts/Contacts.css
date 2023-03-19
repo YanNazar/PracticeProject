@@ -1,0 +1,36 @@
+.contactUs {
+    display: flex;
+    flex-direction: column;
+    color: #FFFFFF;
+    margin: 0;
+    padding: 0;
+    width: max-content;
+}
+
+.contactUs h1 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 150%;
+    margin-bottom: 56px;
+}
+
+.contactUs h2{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 20px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    opacity: 0.5;
+    margin-bottom: 8px;
+}
+
+.contactUs p{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 150%;
+    margin-bottom: 48px;
+}

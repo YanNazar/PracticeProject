@@ -2,3 +2,8 @@ body{
     background: #F2F9FF;
     font-family: 'Poppins', sans-serif;
 }
+
+.approachFlex {
+    display: flex;
+    flex-direction: row-reverse;
+}

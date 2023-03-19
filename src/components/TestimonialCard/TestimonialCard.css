@@ -1,0 +1,50 @@
+.personalCard {
+    background-color: #FFFFFF;
+    height: 494px;
+    width: 314px;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.personalCard img {
+    height: 140px;
+    width: 140px;
+    border-radius: 100%;
+    margin-top: 87px;
+    transition: transform 0.3s ease;
+
+}
+
+.personalCard img:hover {
+    transform: scale(1.2);
+}
+
+.personalCard p {
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 150%;
+    text-align: center;
+    width: 260px;
+    color: #6C788B;
+
+}
+
+.personalCard h1 {
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 150%;
+    text-align: center;
+    color: #253757;
+}
+
+.personalCard h2 {
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #C0CDD7;
+}

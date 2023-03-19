@@ -5,6 +5,7 @@ import { WhiteGround } from './components/WhiteGround';
 import { OurExpertise } from './components/OurExpertise';
 import { Approach } from './components/Approach';
 import { WhoWeAre } from './components/WhoWeAre';
+import Testimonials from './components/Testimonials/Testimonials';
 
 function App() {
   return (
@@ -12,7 +13,10 @@ function App() {
       <Header/>
       <WhoWeAre/>
       <OurExpertise/>
-      <Approach/>
+      <div className="approachFlex">
+        <Approach/>
+      </div>
+      <Testimonials/>
       <WhiteGround/>
     </div>
   );
