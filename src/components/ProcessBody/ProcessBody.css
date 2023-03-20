@@ -1,22 +1,23 @@
 .processBody {
-    width: 100vw;
-    display: flex;
-    flex-direction: row-reverse;
-    
+    width: 100vw;    
+    position: relative;
 }
 
 .processCards {
-    position: relative;
     min-width: 800px;
     min-height: 600px;
+    max-width: max-content;
+    position: absolute;
+    right: 0;
+    bottom: 0;
 }
 
 .processText {
     padding-top: 230px;
     padding-bottom: 230px;
     padding-right: 100px;
-    padding-left: 100px;
-    justify-content: left;
+    padding-left: 10%;
+    max-width: max-content;
 }
 
 .processText h2 {
