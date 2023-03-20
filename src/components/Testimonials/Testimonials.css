@@ -1,0 +1,41 @@
+.testmonialCardsContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 10vw;
+    flex: auto;
+    width: max-content;
+}
+
+.testmonialsTitle {
+    width: max-content;
+}
+
+.testmonialsTitle h2{
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 20px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #C0CDD7;
+}
+
+.testmonialsTitle h1{
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 150%;
+    color: #253757;
+}
+
+.testmonials {
+    width: max-content;
+    margin-bottom: 168px;
+    margin-top: 148px;
+}
+
+.testmonialsContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

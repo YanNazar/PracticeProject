@@ -1,0 +1,47 @@
+.processBody {
+    width: 100vw;
+    display: flex;
+    flex-direction: row-reverse;
+    
+}
+
+.processCards {
+    position: relative;
+    min-width: 800px;
+    min-height: 600px;
+}
+
+.processText {
+    padding-top: 230px;
+    padding-bottom: 230px;
+    padding-right: 100px;
+    padding-left: 100px;
+    justify-content: left;
+}
+
+.processText h2 {
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 20px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #C0CDD7;
+}
+
+.processText h1 {
+    width: 362px;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 130%;
+    display: flex;
+    color: #253757;
+}
+
+.processText p {
+    width: 362px;
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    color: #6C788B;
+}

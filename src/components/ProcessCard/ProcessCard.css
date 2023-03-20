@@ -1,0 +1,118 @@
+.processCard {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    background-color: #FFFFFF;
+    border-radius: 25px;
+    padding: 32px;
+    
+}
+
+.processButton {
+    height: 40px;
+    width: 40px;
+    border-radius: 100%;
+    border: none;
+    transition: transform 0.3s ease;
+    align-items: center;
+    justify-content: center;
+}
+.processButton:hover {
+    transform: scale(1.2);
+}
+
+.cardBlue {
+    background-color: #56CCF2;
+}
+
+.cardGreen {
+    background-color: #15D850;
+}
+
+.cardYellow {
+    background-color: #FCC91D;
+}
+
+.cardRed {
+    background-color: #F36363;
+}
+
+.numberBlue {
+    color: #56CCF2;
+}
+
+.numberGreen {
+    color: #15D850;
+}
+
+.numberYellow {
+    color: #FCC91D;
+}
+
+.numberRed {
+    color: #F36363;
+}
+
+.numberBox {
+    height: 24px;
+    width: 46px;
+    position: absolute;
+    opacity: 0.1;
+    border-radius: 12px;
+}
+
+.numberContainer {
+    position: relative;
+}
+
+.number {
+    padding: 0;
+    padding-top: 2px;
+    margin: 12px;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 20px;
+}
+
+.processCardText {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 150%;
+    color: #6C788B;
+    margin-top: 26px;
+    margin-bottom: 32px;
+}
+
+.processButtonContainer h1 {
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 22px;
+    color: #334563;
+}
+
+.processButtonContainer {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+}
+
+.firstPositionCard {
+    bottom: 198px;
+    right: 400px;
+}
+.secondPositionCard {
+    bottom: -90px;
+    right: 400px;
+}
+
+.thirdPositionCard {
+    bottom: 288px;
+    right:100px
+}
+
+.fourthPositionCard {
+    bottom: 0;
+    right:100px
+}

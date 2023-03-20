@@ -34,3 +34,27 @@
     line-height: 150%;
     margin-bottom: 48px;
 }
+
+.svg-icon {
+    max-width: 34px;
+    max-height: 34px;
+}
+
+.svg-icon path {
+  fill: #FFFFFF;
+  opacity: 1;
+  transition: opacity 0.3s ease;
+}
+
+.svg-icon path:hover {
+    opacity: 0.5;
+}
+
+.icons {
+    margin-top: 16px;
+}
+
+.icons a{
+    margin-right: 32px;
+    color: #FFFFFF;
+}

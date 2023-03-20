@@ -6,6 +6,7 @@ import { OurExpertise } from './components/OurExpertise';
 import { Approach } from './components/Approach';
 import { WhoWeAre } from './components/WhoWeAre';
 import Testimonials from './components/Testimonials/Testimonials';
+import ProcessBody from './components/ProcessBody/ProcessBody';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Header/>
       <WhoWeAre/>
       <OurExpertise/>
+      <ProcessBody/>
       <div className="approachFlex">
         <Approach/>
       </div>
