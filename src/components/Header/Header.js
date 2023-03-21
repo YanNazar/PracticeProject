@@ -1,6 +1,7 @@
 import React from 'react';
 import Logo from '../Logo/Logo';
 import Navigation from '../Navigation/Navigation';
+import Slider from '../Slider/Slider';
 import './Header.css';
 
 function Header() {
@@ -16,7 +17,7 @@ function Header() {
         <p>We believe in the power of bold ideas that can solve business challenges.</p>
         <button className="customButton">Learn more</button>
       </div>
-     
+      <Slider/>
     </div>
   );
 }

@@ -6,11 +6,12 @@
 }
 
 .headerContainer {
-  overflow-y: auto;
   background-color: #008AFF;  
   padding-left: 227px;
   border-bottom-left-radius: 200px;
   margin-bottom: 20px;
+  position: relative;
+  height: 800px;
 }
 
 .column {
@@ -19,8 +20,8 @@
   flex-direction: column;
   color: white;
   word-wrap: break-word;
-  user-select: none
-
+  user-select: none;
+  width: max-content;
 }
 
 .customButton {
